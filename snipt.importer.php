@@ -6,19 +6,19 @@
 
 // Define the Snipt API settings
 define("SNIPT_API",			"http://snipt.net/api");
-define("SNIPT_USER",		"/users/robertbanh.");
+define("SNIPT_USER",		"/users/YOUR_SNIPT_USERNAME_HERE.");
 define("SNIPT_FORMAT",	"json");
 define("SNIPT_SNIPT",		"/snipts/");
 define("SNIPT_STYLE",		"?style=default");
 
 // Define CodeSnipp.it "API" settings
-define( "CODESNIPPIT_USERNAME", "username" );
-define( "CODESNIPPIT_PASSWORD", "password" );
+define( "CODESNIPPIT_USERNAME", "YOUR_CODESNIPPIT_USERNAME_HERE" );
+define( "CODESNIPPIT_PASSWORD", "YOUR_CODESNIPPIT_PASSWORD_HERE" );
 
 // The actual application run
 $sniptImporter = new Snipt_Importer();
 if( $sniptImporter -> retrieve_user_details() ) :
-	// $sniptImporter -> push();
+	$sniptImporter -> push();
 	echo "Application Run Complete\n";
 endif;
 

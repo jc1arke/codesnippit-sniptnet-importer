@@ -6,6 +6,7 @@
  */
 
 // Quick git check
+// New version
 
 // Define the Snipt API settings
 define("SNIPT_API",			"http://snipt.net/api");

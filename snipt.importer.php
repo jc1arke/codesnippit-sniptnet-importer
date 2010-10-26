@@ -5,6 +5,8 @@
  *
  */
 
+// Quick git check
+
 // Define the Snipt API settings
 define("SNIPT_API",			"http://snipt.net/api");
 define("SNIPT_USER",		"/users/YOUR_SNIPT_USERNAME_HERE.");

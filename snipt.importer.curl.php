@@ -2,7 +2,6 @@
 
 /**
  * Snipt.net Importer
- *
  */
 
 // Define the Snipt API settings
